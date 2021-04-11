@@ -105,6 +105,7 @@ class ShortLinkSQLite
         $converted = str_replace('@', '', $url);
         $converted = str_replace('/', '', $converted);
         $converted = str_replace('.', '', $converted);
+        $converted = str_replace(':', '', $converted);
         return static::randomString($converted);
     }
 
