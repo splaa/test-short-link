@@ -1,0 +1,22 @@
+{
+  "name": "splaa/short-link",
+  "description": "Test Short Link",
+  "minimum-stability": "stable",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "splx",
+      "email": "email@example.com"
+    }
+  ],
+  "require": {
+    "php": "^8.0",
+    "ext-pdo": "*"
+  },
+  "autoload": {
+    "psr-4": {
+      "SL\\": "src"
+    },
+    "files": ["functions.php"]
+  }
+}
